@@ -1,0 +1,82 @@
+@media (max-width: 1024px) {
+    html {
+        font-size: 55%;
+    }
+
+    main {
+        width: 90rem;
+        height: 45rem;
+    }
+
+    .name {
+        font-size: 3rem;
+    }
+
+    .btn--new {
+        top: 5rem;
+    }
+
+    .player {
+        padding-top: 15rem;
+    }
+    .dice {
+        top: 16rem;
+    }
+    .player {
+        padding-bottom: 4rem;
+    }
+    .btn--roll {
+        top: 26rem;
+    } 
+    .btn--hold {
+        top: 32rem;
+    }
+    
+}
+
+@media (max-width: 768px) {
+    html {
+        font-size: 50%;
+    } 
+}
+
+@media (max-width: 600px) {
+    .btn--roll {
+        top: 28rem;
+    } 
+    .btn--hold {
+        top: 34rem;
+    }
+    .current {
+        width: 130%;
+    }
+    .current-label {
+        font-size: 2rem;
+    }
+    .player {
+        padding-top: 16rem;
+    }
+    .btn--new {
+        top: 5rem;
+    }
+}
+
+@media (max-width: 500px) {
+    html {
+        font-size: 40%;
+    }
+    main {
+        width: 70rem;
+        height: 60rem;
+    }
+}
+
+@media (max-width: 390px) {
+    html {
+        font-size: 35%;
+    }
+    main {
+        width: 70rem;
+        height: 60rem;
+    }
+}
